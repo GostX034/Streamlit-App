@@ -1,4 +1,4 @@
-FILEPATH = "../Days/todos.txt"
+FILEPATH = "todos.txt"
 import streamlit as st
 """Reecrit la liste a faire dans le document .txt ."""
 def write_todos(todos_arg, filepath=FILEPATH):
